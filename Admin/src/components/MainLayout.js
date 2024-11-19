@@ -30,8 +30,8 @@ const MainLayout = () => {
       <Sider trigger={null} collapsible collapsed={collapsed}>
         <div className="logo">
           <h2 className="text-white fs-5 text-center py-3 mb-0">
-            <span className="sm-logo">DC</span>
-            <span className="lg-logo">Dev Corner</span>
+            <span className="sm-logo">Ecommerce</span>
+            <span className="lg-logo">Ecommerce</span>
           </h2>
         </div>
         <Menu
@@ -108,9 +108,9 @@ const MainLayout = () => {
               label: "Orders",
             },
             {
-              key: "marketing",
+              key: "Offers",
               icon: <RiCouponLine className="fs-4" />,
-              label: "Marketing",
+              label: "Offers",
               children: [
                 {
                   key: "coupon",
@@ -187,7 +187,7 @@ const MainLayout = () => {
                 <img
                   width={32}
                   height={32}
-                  src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg"
+                  src="/Ranjit Rai IMG_7080 00s.jpg"
                   alt=""
                 />
               </div>
@@ -197,8 +197,8 @@ const MainLayout = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <h5 className="mb-0">Navdeep</h5>
-                <p className="mb-0">navdeepdahiya753@gmail.com</p>
+                <h5 className="mb-0">Rajnit Rai</h5>
+                <p className="mb-0">rairanjit391@gmail.com</p>
               </div>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
